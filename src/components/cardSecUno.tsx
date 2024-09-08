@@ -5,7 +5,7 @@ interface Card {
     bgColor: string;
 }
 
-export function CardLinea({ tittle, description, svg, bgColor }: Card) {
+export function CardSecUno({ tittle, description, svg, bgColor }: Card) {
     return (
         <div className="max-w-sm p-6 bg-white border border-gray-400 rounded-lg shadow">
             <div className={`mb-6 w-14 h-14 ${bgColor} rounded-full flex items-center justify-center`}>

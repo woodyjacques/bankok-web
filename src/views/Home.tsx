@@ -1,12 +1,13 @@
 import Header from "../components/header";
 import { Section } from "../components/section";
-import { SectionDos } from "../components/sectionDos";
 import { SectionUno } from "../components/sectionUno";
+import { SectionDos } from "../components/sectionDos";
+import { SectionTres } from "../components/sectionTres";
 
 function Home() {
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex flex-col min-h-screen bg-orange-600">
       <div className="flex-grow">
         <Header />
         <Section
@@ -18,6 +19,11 @@ function Home() {
         />
         <SectionDos
           tittle="Beneficios de los créditos"
+        />
+        <SectionTres
+          tittle="Preguntas"
+          description="¿Quieres saber más? Puedes enviarnos un correo electrónico en cualquier momento."
+          email="soporte@bk.com.do"
         />
       </div>
     </div>

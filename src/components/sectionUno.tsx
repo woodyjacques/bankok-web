@@ -1,7 +1,7 @@
 import { DocumentIcon } from "../assets/documentIcon";
 import { ApprovalIcon } from "../assets/aprovalIcon";
 import { DisbursementIcon } from "../assets/DisbursementIcon";
-import { CardLinea } from "./cardLinea";
+import { CardSecUno } from "./cardSecUno";
 
 interface Sect {
   tittle: string;
@@ -15,19 +15,19 @@ export function SectionUno({ tittle }: Sect) {
           {tittle}
         </h1>
         <div className="flex flex-wrap gap-8 justify-center">
-          <CardLinea 
+          <CardSecUno 
             tittle="Completar el formulario."
             description="Rellenar nuestro sencillo formulario en línea con tus datos básicos. ¡Te tomará solo unos minutos!"
             svg={<DocumentIcon />}
             bgColor="bg-yellow-500"
           />
-          <CardLinea 
+          <CardSecUno 
             tittle="Aprobación en minutos."
             description="Obtendrás una respuesta en cuestión de minutos de que tu préstamo ha sido aprobado."
             svg={<ApprovalIcon />}
             bgColor="bg-red-500"
           />
-          <CardLinea 
+          <CardSecUno 
             tittle="Desembolso inmediato."
             description="Una vez aprobado, el dinero será transferido a tu cuenta de forma instantánea. ¡Así de fácil y rápido!"
             svg={<DisbursementIcon />}
