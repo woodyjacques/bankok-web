@@ -30,7 +30,7 @@ export function Section({ tittle, description }: Sect) {
       </div>
       <div className="px-4 mx-auto max-w-screen-xl py-24 lg:py-64 min-h-screen z-10 relative flex flex-col lg:flex-row items-center">
         <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">
+          <h1 className="custom-title mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">
             {tittle}
           </h1>
           <p className="text-lg font-normal lg:text-xl text-gray-200">
