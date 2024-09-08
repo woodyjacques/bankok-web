@@ -4,6 +4,7 @@ import { SectionUno } from "../components/sectionUno";
 import { SectionDos } from "../components/sectionDos";
 import { SectionTres } from "../components/sectionTres";
 import { SectionCuatro } from "../components/sectionCuatro";
+import { SectionCinco } from "../components/sectionCinco";
 
 function Home() {
 
@@ -28,6 +29,9 @@ function Home() {
         />
         <SectionCuatro
           tittle="Han confiado en nosotros"
+        />
+        <SectionCinco
+          tittle="Blog"
         />
       </div>
     </div>
