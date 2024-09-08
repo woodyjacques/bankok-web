@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import { Section } from "../components/section";
+import { SectionDos } from "../components/sectionDos";
 import { SectionUno } from "../components/sectionUno";
 
 function Home() {
@@ -14,6 +15,9 @@ function Home() {
         />
         <SectionUno
           tittle="Consigue tu préstamo en línea en"
+        />
+        <SectionDos
+          tittle="Beneficios de los créditos"
         />
       </div>
     </div>
