@@ -3,6 +3,7 @@ import { Section } from "../components/section";
 import { SectionUno } from "../components/sectionUno";
 import { SectionDos } from "../components/sectionDos";
 import { SectionTres } from "../components/sectionTres";
+import { SectionCuatro } from "../components/sectionCuatro";
 
 function Home() {
 
@@ -24,6 +25,9 @@ function Home() {
           tittle="Preguntas"
           description="¿Quieres saber más? Puedes enviarnos un correo electrónico en cualquier momento."
           email="soporte@bk.com.do"
+        />
+        <SectionCuatro
+          tittle="Han confiado en nosotros"
         />
       </div>
     </div>
