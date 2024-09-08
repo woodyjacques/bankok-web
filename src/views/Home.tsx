@@ -5,6 +5,8 @@ import { SectionDos } from "../components/sectionDos";
 import { SectionTres } from "../components/sectionTres";
 import { SectionCuatro } from "../components/sectionCuatro";
 import { SectionCinco } from "../components/sectionCinco";
+import { SectionSeis } from "../components/sectionSeis";
+import { Footer } from "../components/footer";
 
 function Home() {
 
@@ -33,6 +35,8 @@ function Home() {
         <SectionCinco
           tittle="Blog"
         />
+        <SectionSeis/>
+        <Footer/>
       </div>
     </div>
   );
