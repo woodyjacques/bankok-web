@@ -16,7 +16,7 @@ export function CardSecTres({ tittle, description }: Card) {
     return (
         <div className={`p-4 border-b border-b-gray-400 transition-all duration-300 mb-6`}>
             <div className="flex items-center justify-between">
-                <h5 className="text-2xl font-bold tracking-tight text-white">
+                <h5 className="custom-title-mediano text-2xl font-bold tracking-tight text-white">
                     {tittle}
                 </h5>
                 <button
@@ -31,7 +31,7 @@ export function CardSecTres({ tittle, description }: Card) {
                 </button>
             </div>
             <div
-                className={`mt-2 text-lg text-white transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-[200px]' : 'max-h-0'}`}
+                className={`mt-2 text-lg font-normal lg:text-xl text-white transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-[200px]' : 'max-h-0'}`}
             >
                 {description}
             </div>

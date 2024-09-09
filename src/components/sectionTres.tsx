@@ -14,7 +14,7 @@ export function SectionTres({ tittle, description, email }: Sect) {
                     <h1 className="custom-title mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">
                         {tittle}
                     </h1>
-                    <p className="text-lg font-normal lg:text-xl text-gray-200">
+                    <p className="text-lg font-normal lg:text-xl text-white">
                         {description}
                     </p>
                     <p className="text-lg font-normal lg:text-xl text-orange-500 p-2 lg:text-2xl">

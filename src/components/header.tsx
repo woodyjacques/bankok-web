@@ -63,7 +63,7 @@ function Header() {
                         <li>
                             <a
                                 href="/beneficios"
-                                className="relative block py-2 px-3 text-white rounded group"
+                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Beneficios
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
@@ -72,7 +72,7 @@ function Header() {
                         <li>
                             <a
                                 href="/como-funciona"
-                                className="relative block py-2 px-3 text-white rounded group"
+                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 ¿Cómo funciona?
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
@@ -81,7 +81,7 @@ function Header() {
                         <li>
                             <a
                                 href="/preguntas-frecuentes"
-                                className="relative block py-2 px-3 text-white rounded group"
+                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Preguntas frecuentes
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
