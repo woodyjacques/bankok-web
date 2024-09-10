@@ -9,17 +9,17 @@ export function SectionSeis() {
                 <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
                     <div className="flex-1 text-left">
                         <img src="https://res.cloudinary.com/dol6yfeoi/image/upload/v1725666395/logo_pjxrb6.svg" alt="" className="inline-block" />
-                        <p className="custom-title text-white inline-block">Soluciones a tu alcance</p>
+                        <p className="tittle text-white inline-block">Soluciones a tu alcance</p>
                     </div>
                     <div className="text-1xl flex-1 text-left text-white flex flex-col items-start space-y-4">
-                        <p className="cabin-small">Bankok Dominicana, dedicados a ofrecer soluciones innovadoras, adaptadas a las necesidades de cada cliente.</p>
-                        <div className="flex items-center space-x-2">
+                        <p className="text-aonik-1">Bankok Dominicana, dedicados a ofrecer soluciones innovadoras, adaptadas a las necesidades de cada cliente.</p>
+                        <div className="text-aonik-1 flex items-center space-x-2">
                             <img src={phone} alt="" />
-                            <p className="cabin-small">809-460-6060</p>
+                            <p className="text-aonik-1">809-460-6060</p>
                         </div>
                         <div className="flex items-center space-x-2">
                             <img src={message} alt="" />
-                            <p className="cabin-small">soporte@bk.com.do</p>
+                            <p className="text-aonik-1">soporte@bk.com.do</p>
                         </div>
                     </div>
                 </div>

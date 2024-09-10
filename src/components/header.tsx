@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/logo.png"
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,14 +9,14 @@ function Header() {
     };
 
     return (
-        <nav className="bg-blue-700 fixed w-full z-20 top-0 start-0 border-blue-900 font-aeonik">
+        <nav className="bg-blue-500 fixed w-full z-20 top-0 start-0 border-blue-900 font-aeonik">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a
                     href="/"
                     className="flex items-center space-x-3 rtl:space-x-reverse"
                 >
                     <img
-                        src="https://res.cloudinary.com/dol6yfeoi/image/upload/v1725666395/logo_pjxrb6.svg"
+                        src={logo}
                         className="h-8"
                         alt="Bankok logo"
                     />
@@ -24,7 +25,7 @@ function Header() {
                     <a href="/login">
                         <button
                             type="button"
-                            className="text-white bg-blue-900 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-12 py-2"
+                            className="text-header text-white bg-blue-900 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-12 py-2"
                         >
                             Ingresar
                         </button>
@@ -59,11 +60,11 @@ function Header() {
                     className={`${isMenuOpen ? "block" : "hidden"} items-center justify-between w-full md:flex md:w-auto md:order-1`}
                     id="navbar-sticky"
                 >
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-blue-900 rounded-lg bg-blue-700 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-blue-900 rounded-lg bg-blue-500 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                         <li>
                             <a
                                 href="/beneficios"
-                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
+                                className="text-header text-lg lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Beneficios
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
@@ -72,7 +73,7 @@ function Header() {
                         <li>
                             <a
                                 href="/como-funciona"
-                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
+                                className="text-header text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 ¿Cómo funciona?
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
@@ -81,7 +82,7 @@ function Header() {
                         <li>
                             <a
                                 href="/preguntas-frecuentes"
-                                className="text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
+                                className="text-header text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Preguntas frecuentes
                                 <span className="absolute left-0 bottom-0 w-full h-0.5 bg-red-500 transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>

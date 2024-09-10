@@ -1,6 +1,7 @@
 import { Calendar } from "../assets/calendar-lines-pen";
 import { Compliance } from "../assets/compliance-document";
 import { CalendalClock } from "../assets/calendar-clock";
+import banner from "../assets/Banner.png"
 
 import { CardSecDos } from "./cardSecDos";
 import { CalendarSalary } from "../assets/calendar-salary";
@@ -36,13 +37,13 @@ export function SectionDos({ tittle }: Sect) {
             </div>
             <div className="px-4 mx-auto max-w-screen-xl py-12 lg:py-24 min-h-screen z-10 relative">
                 <div className="mb-20 lg:mt-0">
-                    <h1 className="custom-title mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center">
+                    <h1 className="tittle mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center">
                         {tittle}
                     </h1>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:space-x-8 lg:space-y-0 space-y-8">
                     <div className="lg:w-1/2">
-                        <img src="https://res.cloudinary.com/dol6yfeoi/image/upload/v1725759522/Banner_ojocjl.png" alt="Banner" className="w-full h-auto" />
+                        <img src={banner} alt="Banner" className="w-full h-auto" />
                     </div>
                     <div className="lg:w-1/2 space-y-8">
                         <CardSecDos

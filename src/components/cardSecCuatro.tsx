@@ -22,16 +22,16 @@ export function CardSecCuatro({ tittle, description, imagen, tittle2 }: Card) {
                             ))}
                         </div>
                         <a href="#">
-                            <h5 className="custom-title text-xl font-semibold tracking-tight text-black mr-4">{tittle}</h5>
+                            <h5 className="text-aonik-3 text-xl font-bold tracking-tight text-black mr-4">{tittle}</h5>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <p className="mb-3 font-normal text-gray-500">
+            <p className="text-aonik-1 mb-3 font-normal text-gray-500">
                 {description}
             </p>
-            <p className="inline-flex font-medium items-center text-blue-600">
+            <p className="text-aonik-2 inline-flex font-bold items-center text-blue-600">
                 {tittle2}
             </p>
         </div>

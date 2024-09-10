@@ -15,66 +15,49 @@
   background-color: rgb(31, 41, 55);
 }
 
-.custom-title {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../Aeonik/AeonikTRIAL-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nordeco';
+  src: url('../Nordeco/Fontspring-DEMO-nordeco-bold.otf') format('opentype');
+  font-style: normal;
+}
+
+.text-header {
+  font-variant: normal;
+  font-size: 22px;
+  line-height: 35px;
+  font-family: 'Aeonik', sans-serif;
+}
+
+.text-aonik-1 {
+  font-variant: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Aeonik', sans-serif;
+}
+
+.text-aonik-2 {
+  font-variant: normal;
+  font-size: 21px;
+  line-height: 24px;
+  font-family: 'Aeonik', sans-serif;
+}
+
+.text-aonik-3 {
+  font-size: 33px;
+  line-height: 38px;
+  font-family: 'Aeonik', sans-serif;
+}
+
+.tittle{
+  font-variant: normal;
   font-size: 70px;
   line-height: 76px;
-  font-weight: bold;
-  letter-spacing: 0px;
-  opacity: 1;
-}
-
-.custom-title-mediano {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  font-size: 30px;
-  line-height: 76px;
-  font-weight: bold;
-  letter-spacing: 0px;
-  opacity: 1;
-}
-
-.rounded-custom-large {
-  border-top-left-radius: 10rem;
-}
-
-.letra-aonick {
-  font: normal normal bold 17px/20px Aeonik;
-  letter-spacing: 0px;
-  color: #F3F3F3;
-  opacity: 1;
-}
-
-.cabin-mediado-sin-bord {
-  font-family: "Cabin", sans-serif;
-  font-size: calc(16px + 4px);
-}
-
-.cabin-mediado {
-  font-family: "Cabin", sans-serif;
-  font-weight: bold;
-  font-size: calc(16px + 4px);
-}
-
-.cabin-small {
-  font-family: "Cabin", sans-serif;
-  color: white;
-  font-weight: bold;
-  font-size: calc(13px + 4px);
-}
-
-.last-item {
-  list-style-type: none;
-}
-
-.tittle-politica{
-  font-family: "Cabin", sans-serif;
-  color: black;
-  font-weight: bold;
-  font-size: calc(18px + 8px);
-}
-
-.desc-politica{
-  font-family: "Cabin", sans-serif;
-  color: black;
-  font-size: calc(13px + 4px);
+  font-family: 'Nordeco', sans-serif;
 }

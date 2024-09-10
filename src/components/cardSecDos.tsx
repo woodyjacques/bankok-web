@@ -12,8 +12,8 @@ export function CardSecDos({ tittle, description, svg }: Card) {
                     {svg}
                 </div>
                 <div className="flex flex-col justify-center leading-normal">
-                    <h5 className="custom-title mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{tittle}</h5>
-                    <p className="mb-3 text-lg font-normal lg:text-xl text-white">{description}</p>
+                    <h5 className="text-aonik-3 mb-2 text-2xl font-bold tracking-tight text-white">{tittle}</h5>
+                    <p className="text-aonik-2 mb-3 text-lg lg:text-xl text-white">{description}</p>
                 </div>
             </a>
         </div>

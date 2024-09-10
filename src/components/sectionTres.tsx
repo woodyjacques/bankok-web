@@ -11,13 +11,13 @@ export function SectionTres({ tittle, description, email }: Sect) {
         <section className="relative bg-blue-700 bg-cover bg-center overflow-hidden rounded-custom-large">
             <div className="px-4 mx-auto max-w-screen-xl py-12 lg:py-24 min-h-screen z-10 relative flex flex-col lg:flex-row items-center">
                 <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
-                    <h1 className="custom-title mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">
+                    <h1 className="tittle mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">
                         {tittle}
                     </h1>
-                    <p className="text-lg font-normal lg:text-xl text-white">
+                    <p className="text-aonik-3 text-lg font-normal lg:text-xl text-white">
                         {description}
                     </p>
-                    <p className="text-lg font-normal lg:text-xl text-orange-500 p-2 lg:text-2xl">
+                    <p className="text-aonik-3 text-lg font-normal lg:text-xl text-orange-500 p-2 lg:text-2xl">
                         {email}
                     </p>
                 </div>
