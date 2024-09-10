@@ -12,7 +12,7 @@ interface Sect {
 
 export function SectionDos({ tittle }: Sect) {
     return (
-        <section className="relative bg-orange-600 bg-cover bg-center">
+        <section id="beneficios" className="relative bg-orange-600 bg-cover bg-center">
             <div className="absolute inset-0 overflow-hidden">
                 <div
                     className="absolute top-0 left-0 w-64 h-64 bg-[url('https://res.cloudinary.com/dol6yfeoi/image/upload/v1725758586/circulo_pygm5x.png')] bg-no-repeat bg-contain"

@@ -10,7 +10,7 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-6 md:space-y-0 md:space-x-6">
                     <div className="text-white">
                         <ul className="space-y-2 list-disc pl-5">
-                            <li className="text-xl font-semibold list-none mb-4">Soluciones</li>
+                            <li className="tittle text-xl font-semibold list-none mb-4">Soluciones</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Préstamo Personal</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Préstamo Hipotecario</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Préstamo Prendario</li>
@@ -20,7 +20,7 @@ export function Footer() {
                     </div>
                     <div className="text-white">
                         <ul className="space-y-2 list-disc pl-5">
-                            <li className="cabin-mediado text-xl font-semibold list-none mb-4">Inversiones</li>
+                            <li className="tittle text-xl font-semibold list-none mb-4">Inversiones</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Quiero prestar</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">¿Cómo funciona?</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Preguntas frecuentes</li>
@@ -30,15 +30,15 @@ export function Footer() {
                     </div>
                     <div className="text-white">
                         <ul className="space-y-2 list-disc pl-5">
-                            <li className="cabin-mediado text-xl font-semibold list-none mb-4">Páginas</li>
+                            <li className="tittle text-xl font-semibold list-none mb-4">Páginas</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Nosotros</li>
                             <li className="hover:text-red-500 text-aonik-1 mb-2">Servicios</li>
-                            <li className="hover:text-red-500 text-aonik-1 mb-2">Blog</li>
-                            <li className="hover:text-red-500 text-aonik-1 mb-2">Contacto</li>
+                            <li className="hover:text-red-500 text-aonik-1 mb-2"><a href="/blog">Blog</a></li>
+                            <li className="hover:text-red-500 text-aonik-1 mb-2"><a href="/contacto">Contacto</a></li>
                         </ul>
                     </div>
                     <div className="text-white flex flex-col items-start space-y-2">
-                        <p className="cabin-mediado text-xl font-semibold">Síguenos</p>
+                        <p className="tittle text-xl font-semibold">Síguenos</p>
 
                         <div className="text-aonik-1 flex items-center space-x-2">
                             <div className="cursor-pointer hover:bg-blue-500 bg-blue-600 p-2 rounded"><Facebook /></div>
@@ -70,9 +70,9 @@ export function Footer() {
                     </div>
                     <div className="text-aonik-1 text-white flex-1 flex flex-col sm:flex-row sm:justify-center space-y-2 sm:space-y-0 sm:space-x-4 px-4 sm:px-0">
                         <a href="/politicas" className="hover:text-red-500">Políticas de Privacidad</a>
-                        <a href="#" className="hover:text-red-500">Condiciones de uso</a>
-                        <a href="#" className="hover:text-red-500">Políticas de Cookies</a>
-                        <a href="#" className="hover:text-red-500">Aviso Legal</a>
+                        <a href="/politicas" className="hover:text-red-500">Condiciones de uso</a>
+                        <a href="/politicas" className="hover:text-red-500">Políticas de Cookies</a>
+                        <a href="/politicas" className="hover:text-red-500">Aviso Legal</a>
                     </div>
                 </div>
             </span>

@@ -8,7 +8,7 @@ interface Sect {
 
 export function SectionTres({ tittle, description, email }: Sect) {
     return (
-        <section className="relative bg-blue-700 bg-cover bg-center overflow-hidden rounded-custom-large">
+        <section id="preguntas-frecuentes" className="relative bg-blue-700 bg-cover bg-center overflow-hidden rounded-custom-large">
             <div className="px-4 mx-auto max-w-screen-xl py-12 lg:py-24 min-h-screen z-10 relative flex flex-col lg:flex-row items-center">
                 <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
                     <h1 className="tittle mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white">

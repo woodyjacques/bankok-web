@@ -63,7 +63,7 @@ function Header() {
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-blue-900 rounded-lg bg-blue-500 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                         <li>
                             <a
-                                href="/beneficios"
+                                href="#beneficios"
                                 className="text-header text-lg lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Beneficios
@@ -72,7 +72,7 @@ function Header() {
                         </li>
                         <li>
                             <a
-                                href="/como-funciona"
+                                href="#como-funciona"
                                 className="text-header text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 ¿Cómo funciona?
@@ -81,7 +81,7 @@ function Header() {
                         </li>
                         <li>
                             <a
-                                href="/preguntas-frecuentes"
+                                href="#preguntas-frecuentes"
                                 className="text-header text-lg font-normal lg:text-xl relative block py-2 px-3 text-white rounded group"
                             >
                                 Preguntas frecuentes

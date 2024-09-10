@@ -1,8 +1,8 @@
 export const PoliUno = () => {
     return (
         <div>
-            <h1 className="tittle-politica text-xl md:text-2xl mb-4 mt-10">Tipos de información recopilada</h1>
-            <p className="desc-politica text-sm md:text-base leading-relaxed">
+            <h1 className="text-aonik-3 font-bold text-xl md:text-2xl mb-4 mt-10">Tipos de información recopilada</h1>
+            <p className="text-aonik-1 text-sm md:text-base leading-relaxed">
                 La información que obtenemos de los clientes ayuda a personalizar y mejorar continuamente su experiencia en Bankok Estos son los tipos de información que recopilamos:
                 <br /><br />
                 <strong>Información que usted nos proporciona.</strong> Usted proporciona información cuando busca, lee y ve contenido en nuestro sitio web, proporciona información a través de nuestros servicios y/o se comunica con nosotros a través de nuestra información de contacto o nuestros formularios de contacto. Como resultado de esas acciones, usted podría proporcionarnos la siguiente información:

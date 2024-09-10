@@ -1,8 +1,8 @@
 export const Poli = () => {
     return (
         <div>
-            <h1 className="tittle-politica text-xl md:text-2xl mb-4">Formulario de consulta</h1>
-            <p className="desc-politica text-sm md:text-base leading-relaxed">
+            <h1 className="text-aonik-3 font-bold text-xl md:text-2xl mb-4">Formulario de consulta</h1>
+            <p className="text-aonik-1 text-sm md:text-base leading-relaxed">
                 En Bankok, queremos que comprendas que valoramos tu privacidad y la protección de sus datos personales. Esta política de privacidad describe qué información recogemos de usted, cómo la recogemos, cómo la utilizamos, cómo obtenemos su consentimiento, cuánto tiempo la mantenemos en nuestras bases de datos y, si es necesario, con quién la compartimos.
                 <br /><br />
                 Al utilizar el sitio web y los servicios, usted acepta las prácticas descritas en esta Política de Privacidad. El uso del sitio web y de los servicios también está sujeto a nuestros Términos y Condiciones. Esta Política de Privacidad puede cambiar de vez en cuando. Su uso continuado del sitio web y de los servicios después de que hagamos cambios se considerará como una aceptación de dichos cambios, por lo que le rogamos que compruebe periódicamente la política para ver si hay actualizaciones.

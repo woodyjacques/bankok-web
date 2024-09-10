@@ -1,7 +1,7 @@
 import { Footer } from "../components/footer";
 import { SectionSeis } from "../components/sectionSeis";
 
-function Error404() {
+function Contacto() {
 
     return (
         <div className="flex flex-col min-h-screen bg-orange-600">
@@ -24,4 +24,4 @@ function Error404() {
     );
 }
 
-export default Error404;
+export default Contacto;
