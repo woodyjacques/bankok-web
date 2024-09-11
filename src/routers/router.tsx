@@ -6,12 +6,14 @@ import Contacto from "../views/Contacto";
 import Blog from "../views/Blog";
 
 import Error404 from "../views/Error404";
+import FormIngresar from "../views/FormIngresar";
 
 const router = createBrowserRouter([
   { path:"/", element: <Home /> },
   { path:"/politicas", element: <Politicas /> },
   { path:"/contacto", element: <Contacto /> },
   { path:"/blog", element: <Blog /> },
+  { path:"/form", element: <FormIngresar /> },
   { path: "*", element: <Error404 /> },
 ]);
 
