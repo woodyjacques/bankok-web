@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import FormIngresar from "../views/FormIngresar";
+import FormPhone from "../views/FormPhone"; 
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -13,6 +15,17 @@ function Header() {
     const toggleModal = () => {
         setIsModalOpen(!isModalOpen);
     };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     useEffect(() => {
         if (isModalOpen) {
@@ -39,7 +52,6 @@ function Header() {
                     />
                 </a>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-
                     <button
                         type="button"
                         onClick={toggleModal}
@@ -111,10 +123,10 @@ function Header() {
 
             {isModalOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end items-center z-50">
-                    <FormIngresar />
+                    {isMobile ? <FormPhone /> : <FormIngresar />}
                     <button
                         onClick={toggleModal}
-                        className="absolute top-4 right-4 text-gray-500 hover:text-red-500 text-2xl z-50"
+                        className="absolute bg-blue-600 top-4 right-4 text-white hover:text-red-500 text-2xl z-50 w-10 h-10 rounded-full flex justify-center items-center"
                     >
                         ✕
                     </button>
